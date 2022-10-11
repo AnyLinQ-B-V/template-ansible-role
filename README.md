@@ -1,5 +1,7 @@
 # Ansible Role: Template
 
+[![CI](https://github.com/AnyLinQ-B-V/template-ansible-role/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/AnyLinQ-B-V/template-ansible-role/actions/workflows/ci.yml)
+
 An template for new Ansible roles.
 
 ## Requirements
@@ -44,4 +46,4 @@ MIT
 
 ## Author Information
 
-This role was created in 2022 by [AnySURE](https://github.com/orgs/AnyLinQ-B-V/teams/anysure), part of [AnyLinQ B.V.](https://github.com/AnyLinQ-B-V).
+This role was created in 2022 by [AnyLinQ B.V.](https://github.com/AnyLinQ-B-V).

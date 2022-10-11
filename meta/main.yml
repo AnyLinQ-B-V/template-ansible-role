@@ -1,11 +1,12 @@
+---
 galaxy_info:
-  author: your name
+  author: Jou naam hier
   namespace: anysure
-  description: your role description
+  description: Jou omschrijving hier
   company: AnyLinQ B.V.
 
   issue_tracker_url: https://github.com/AnyLinQ-B-V/template-ansible-role/issues
-  
+
   license: MIT
 
   min_ansible_version: 2.1
