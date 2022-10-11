@@ -1,0 +1,9 @@
+---
+- name: Converge
+  hosts: all
+  collections:
+    - community.general
+  tasks:
+    - name: "Include anysure.ansibletemplate"
+      include_role:
+        name: "anysure.ansibletemplate"
