@@ -46,4 +46,4 @@ MIT
 
 ## Author Information
 
-This role was created in 2022 by [AnySURE](https://github.com/orgs/AnyLinQ-B-V/teams/anysure), part of [AnyLinQ B.V.](https://github.com/AnyLinQ-B-V).
+This role was created in 2022 by [AnyLinQ B.V.](https://github.com/AnyLinQ-B-V).
