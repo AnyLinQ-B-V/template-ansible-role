@@ -1,10 +1,10 @@
 ---
 - name: Converge
   hosts: all
-  become: yes
+  become: true
   collections:
     - community.general
   tasks:
-    - name: "Run role"
-      include_role:
+    - name: Run role
+      ansible.builtin.include_role:
         name: "{{ lookup('env', 'MOLECULE_PROJECT_DIRECTORY') | basename }}"

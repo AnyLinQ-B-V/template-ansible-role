@@ -5,8 +5,8 @@ driver:
   name: docker
 lint: |
   set -e
-  yamllint .
-  ansible-lint
+  yamllint -c molecule/default/yamllint.yml .
+  ansible-lint molecule/default/converge.yml
 platforms:
   - name: instance
     image: "geerlingguy/docker-${MOLECULE_DISTRO:-rockylinux8}-ansible:latest"
