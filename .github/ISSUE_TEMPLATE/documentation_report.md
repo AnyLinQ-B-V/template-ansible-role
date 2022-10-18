@@ -1,6 +1,9 @@
 ---
 name: Documentation Report
 about: Ask us about docs
+title: 
+labels: documentation
+assignees: 
 ---
 Verify first that your improvement is not already reported on GitHub
 

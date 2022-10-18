@@ -1,6 +1,9 @@
 ---
 name: ✨ Feature request
 about: Suggest an idea for this project
+title: 
+labels: enhancement
+assignees: 
 ---
 Verify first that your feature was not already discussed on GitHub
 
