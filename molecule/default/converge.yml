@@ -1,9 +1,10 @@
 ---
 - name: Converge
   hosts: all
+  become: yes
   collections:
     - community.general
   tasks:
-    - name: "Include anysure.ansibletemplate"
+    - name: "Run role"
       include_role:
-        name: "anysure.ansibletemplate"
+        name: "{{ lookup('env', 'MOLECULE_PROJECT_DIRECTORY') | basename }}"
