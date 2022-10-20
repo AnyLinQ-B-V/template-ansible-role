@@ -1,6 +1,7 @@
 # Ansible Role: Template
 
 [![CI](https://github.com/AnyLinQ-B-V/template-ansible-role/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/AnyLinQ-B-V/template-ansible-role/actions/workflows/ci.yml)
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
 An template for new Ansible roles.
 
