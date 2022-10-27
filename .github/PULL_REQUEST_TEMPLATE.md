@@ -12,7 +12,8 @@ This Pull Request addresses Issue #<ISSUE_NUMBER>
 
 Please add a description of the changes made in the Pull Request.
 
----
+```
+```
 
 ## Checklist before submitting the Pull Request
 
