@@ -41,6 +41,11 @@ This example is taken from `molecule/default/converge.yml` and is tested on each
   roles:
     - role: anylinq.ansibletemplate
 ```
+
+## Setup for development
+
+```python -m pip install --upgrade -r requirements.txt```
+
 ## License
 
 MIT
