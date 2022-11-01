@@ -46,6 +46,10 @@ This example is taken from `molecule/default/converge.yml` and is tested on each
 
 ```python -m pip install --upgrade -r requirements.txt```
 
+or
+
+```pip install -r requirements.txt```
+
 ## License
 
 MIT
