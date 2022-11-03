@@ -19,6 +19,8 @@ sed -i "s/template-ansible-role/ansible-role-$ROLENAME/g" meta/main.yml
 sed -i "s/ansibletemplate/$ROLENAME/g" tasks/main.yml
 sed -i "s/ansibletemplate/$ROLENAME/g" tests/test.yml
 sed -i "s/ansibletemplate/$ROLENAME/g" vars/main.yml
+sed -i "s/ansibletemplate/$ROLENAME/g" handlers/main.yml
+sed -i "s/ansibletemplate/$ROLENAME/g" defaults/main.yml
 sed -i "s/Template/ansible-role-$ROLENAME/g" README.md
 sed -i "s/template-ansible-role/ansible-role-$ROLENAME/g" README.md
 sed -i "s/ansibletemplate/$ROLENAME/g" README.md
